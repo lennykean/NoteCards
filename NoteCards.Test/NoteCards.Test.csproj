@@ -34,13 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-<<<<<<< HEAD
-    <Reference Include="Moq, Version=4.0.10827.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
       <Private>True</Private>
-=======
-    <Reference Include="Moq">
->>>>>>> ae98ae9cabfa9bab4c9c683a7ada1835f0a20489
-      <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -57,23 +53,14 @@
     <Compile Include="MainPresenterTests.cs" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
->>>>>>> ae98ae9cabfa9bab4c9c683a7ada1835f0a20489
     <ProjectReference Include="..\NoteCards\NoteCards.csproj">
       <Project>{0276A578-848C-4674-9C94-3B10DCFE82D6}</Project>
       <Name>NoteCards</Name>
     </ProjectReference>
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-=======
->>>>>>> ae98ae9cabfa9bab4c9c683a7ada1835f0a20489
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
